@@ -1,0 +1,107 @@
+ver 13
+	cambiato nome al media oraricentralino in orari per farlo combaciare con il target nel .wtc
+	aggiunte pagine per immagini nel .js
+
+ver 12
+	.wtc aggiornato per risolvere conflitti
+	media nuovi
+		- orari
+		- orari link
+		- TERRA 1° 2°  piano biennio
+	
+ver 11
+	aggiunta bottone dei link personalizzato in base al video
+	
+ver 10
+	Cambiato .wtc
+	labchim1 e labchim2 sono diventati labchim
+	Aggiunti video nuovi 
+
+ver 9
+	Tutorial aggiunto!!
+	L'applicazione ricorda se è il primo accesso o meno e fa vedere (o meno) il tutorial
+	Stiamo per finire la tesina evviva yeah.
+
+Ver 8.4
+	Il tutorial non esiste ma l'immagine è caricata UGUALE in tutte le 3 schermate.
+	portrait mode @ main activity e tolto la immersive mode
+	TODO:
+	- tutorial 1900x1080
+	-
+
+Ver 8.3.1
+	L'applicazione non parte ma ci sono più robe aggiunte
+	- sempre sveglio
+	- provato a mettere l'immagine che si adatta da sola
+
+	C'è da capire come funzionano le varie schermate nel tutorial
+
+Ver 8.3
+	Cambiato WTC
+
+Ver 8.2.1
+	landscape mode @cam 
+
+Ver 8.1
+	Semi offline perché .js su www.mimiscakes.it
+	Cambiate un paio di cose
+	La roba sembra funzionare però c'è da migliorare le grafiche varie
+
+Ver 8
+	Passati alla versione OFFLINE.
+	Da fare:
+		- TUTORIAL
+		- ASSOCIARE MEDIA AI MARKER
+
+Ver 7
+	NEW ICON GUYS!
+	Modificato gestione download, adattabile a più file
+	Ci stiamo avvicinando a qualcosa di presentabile :D
+	TODO
+		Connessione a MongoDB con download di un array/matrice con i nomi dei file da scaricare.
+		Controllare se i file sono già stati scaricati
+		Fare un ciclo di download
+		(Dopo) Implementare lo zoom dal .js verificando la qualità del riconoscimento
+		
+
+Ver 6
+	Aggiunta nuova KEY data da eduWikitude
+	TODO
+		connessione database
+		controllo file locali
+		migliore gestione di downloader
+		implementare zoom da .js (potrebbe richiedere modifiche a index.html)
+		
+
+Ver 5
+	abbassato targetSDK a 22(lollipop) per evitare sbatti con i permessi
+	rimosse richieste permessi
+	TODO
+		connessione database
+			controllo file locali
+		migliore gestione di downloader
+		implementare zoom da .js (potrebbe richiedere modifiche a index.html)
+
+Ver 4 
+	implementata alpha downloader
+		per provarlo modificare l'url contenuto in mainActivity ed eventualmente il percorso del file in downloader
+	TODO 
+		connessione database
+		risolvere richiesta autorizzazioni
+		migliore gestione di downloader
+		
+Ver 3 
+	pulito codice
+	implementata nuova activity di avvio
+	aggiunta icona all'activity di avvio
+	
+Ver 2
+    pulito codice
+	bozza della nuova activity di avvio
+	risolto crash premendo back e al primo avvio
+	confermo il funzionamento del wtc senza trattino
+	
+Ver 1
+	tolto il Loading... nel index.html
+	cambiato .wtc con uno con 2 target: labinf e labsis
+	Senza il trattino (forse) si riesce a identificare due target diversi
